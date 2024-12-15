@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-14T19:02:22 IST" name="Default suite" finished-at="2024-12-14T19:02:37 IST" duration-ms="15314">
+    <groups>
+    </groups>
+    <test started-at="2024-12-14T19:02:22 IST" name="Default test" finished-at="2024-12-14T19:02:37 IST" duration-ms="15314">
+      <class name="day1.HTTPRequest">
+        <test-method signature="CrateUser()[pri:0, instance:day1.HTTPRequest@2a798d51]" started-at="2024-12-14T19:02:22 IST" name="CrateUser" finished-at="2024-12-14T19:02:34 IST" duration-ms="11605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CrateUser -->
+        <test-method signature="GetAllUser()[pri:0, instance:day1.HTTPRequest@2a798d51]" started-at="2024-12-14T19:02:34 IST" name="GetAllUser" finished-at="2024-12-14T19:02:36 IST" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllUser -->
+        <test-method signature="GetUser()[pri:0, instance:day1.HTTPRequest@2a798d51]" started-at="2024-12-14T19:02:36 IST" name="GetUser" finished-at="2024-12-14T19:02:36 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUser -->
+        <test-method signature="deleteUser()[pri:0, instance:day1.HTTPRequest@2a798d51]" started-at="2024-12-14T19:02:36 IST" name="deleteUser" finished-at="2024-12-14T19:02:36 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="CreateUser()[pri:1, instance:day1.HTTPRequest@2a798d51]" started-at="2024-12-14T19:02:36 IST" name="CreateUser" finished-at="2024-12-14T19:02:37 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method signature="updateUser()[pri:2, instance:day1.HTTPRequest@2a798d51]" started-at="2024-12-14T19:02:37 IST" name="updateUser" finished-at="2024-12-14T19:02:37 IST" depends-on-methods="day1.HTTPRequest.CreateUser" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- day1.HTTPRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
